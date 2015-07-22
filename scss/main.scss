@@ -1,8 +1,10 @@
-@import "../lib/bourbon/_bourbon.scss";
-@import "../lib/neat/_neat.scss";
-@import "../lib/base/_base.scss";
+@import '../lib/bourbon/_bourbon.scss';
+@import '../lib/neat/_neat.scss';
+@import '../lib/base/_base.scss';
+@import 'foundation/index';
 @import 'layout/index';
 @import 'components/index';
+
 
 /*body {
 	@include linear-gradient(to top, #FFA07A, #6495ED);
