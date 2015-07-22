@@ -1,4 +1,4 @@
-$parallax-window-height: 30em;
+$parallax-window-height: 20em;
 $parallax-background-height: $parallax-window-height * 2;
 
 .parallax-window {
@@ -17,7 +17,7 @@ $parallax-background-height: $parallax-window-height * 2;
 }
 
 .parallax-background {
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png") repeat;
+  background: url("http://travelnoire.com/wp-content/uploads/2014/12/o-NEW-YORK-CITY-WRITER-facebook.jpg") repeat;
   background-position: top;
   background-size: cover;
   background-color: beige;

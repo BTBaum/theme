@@ -1,8 +1,12 @@
+section {
+  padding: 10em;
+}
+
 .bullets {
   $base-line-height: 1.5em !default;
   $action-color: #477DCA !default;
   $dark-gray: #333 !default;
-  $base-font-color: $dark-gray !default;
+  $base-font-color: $white !default;
   $icon-bullet-size: 3.5em;
 
   @include display(flex);
@@ -56,7 +60,7 @@
   }
 
   p {
-    color: $base-font-color;
+    color: $white;
     line-height: $base-line-height;
   }
 
