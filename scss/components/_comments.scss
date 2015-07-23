@@ -5,7 +5,7 @@ section {
 .comment {
   $base-border-radius: 3px !default;
   $base-spacing: 1.5em !default;
-  $action-color: #477DCA !default;
+  $action-color: $white !default;
   $dark-gray: #333 !default;
   $base-font-color: $white !default;
   $comment-gutter: 1.4em;
@@ -58,6 +58,7 @@ section {
     p {
       line-height: 1.5em;
       margin-bottom: 0.5em;
+      color: $white;
     }
 
     p.comment-detail {

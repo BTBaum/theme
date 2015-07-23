@@ -1,0 +1,15 @@
+.why {
+  @include outer-container;
+  @include span-columns(12);
+  aside { 
+  	@include span-columns(3); 
+  	@include pad();
+  	font-weight: 50%;
+  }
+  article { 
+  	@include span-columns(9); 
+  	@include reset-display;
+  	@include omega();
+		@include pad(); 
+  }
+}

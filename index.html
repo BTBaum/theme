@@ -3,7 +3,9 @@
 <head>
 	<link href="scss/main.css" rel="stylesheet"/>
 	<link href="javascript/jquery.js" rel="javascript">
-	<link href="javascript/functions.js" rel="javascript">
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="javascript/functions.js" rel="javascript"></script>
 	<title>Theme</title>
 </head>
 <body>
@@ -20,7 +22,7 @@
 	        <li class="nav-link"><a href="javascript:void(0)">Why</a></li>
 	        <li class="nav-link"><a href="javascript:void(0)">Pricing</a></li>
 	        <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
-	        <li class="nav-link"><a href="javascript:void(0)">Sign Up</a></li>
+	        <li class="nav-link"><a href="javascript:void(0)"></a>Sign Up</li>
 	        <li class="nav-link"><a href="javascript:void(0)">Log In</a></li>
 		    </ul>
 		  </nav>
@@ -72,128 +74,56 @@
 		</ul>
 	</section>
 
-	<!-- Device -->
-	<div class="device-background">
-	  <div class="device-text">
-	    <h4>Text about App or Device</h4>
-	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, recusandae? Deserunt repellendus.</p>
+	<!-- Why -->
+	<section class="why">
+	  <aside>Why?</aside>
+	  <article>Alterum iracundia id eum, mea reque gubergren ei. Aeque suavitate elaboraret nec te. Ei duo labitur phaedrum, 
+	  		   	 sumo dolore est ea. Amet autem putant eos eu, tamquam salutatus percipitur sea eu. Quo et nostrum quaestio, suas viderer alienum et eos.
+	  </article>
+	  <aside>Why?</aside>
+	  <article>In ceteros corpora sed, ei usu elitr ubique alterum. Solum possim iudicabit per ei, rebum paulo intellegat nec 
+	  		     ei, debet offendit ei eum. Nam assum regione perfecto no. Nihil populo inermis ex vim, quo prompta noluisse similique eu, ut movet nostrud maiestatis has. In eum numquam salutatus intellegebat, has ne audiam deleniti hendrerit. Volutpat appellantur consectetuer te eum.
+	  </article>
+	  <aside>Why?</aside>
+	  <article>Ea unum zril oportere pro, ex velit scriptorem pri. Te pri suas interesset, diam soluta docendi ex qui, ius ex
+	  				 modo oportere. Etiam legendos quaestio ad eos, vix ex suas scaevola, eos omnis libris deleniti cu. Quo at ancillae molestie, mea ex doctus aperiri expetendis, ei expetendis intellegam dissentias mei. Quo agam dolor contentiones ea. Erat reque an mel, inani partiendo usu ad.</article>
+	  <aside>Why?</aside>
+	  <article>Vix labore tacimates et. Commodo suscipit epicurei qui ea. Veritus suscipit disputando pri ex. Accusam appellantur
+	  				 at vel, vix viderer instructior at, dicant debitis usu ei. Ius erant zril at, aeque noluisse ea vis.
+		</article>
+	</section>
+
+	<!-- Parallax -->
+	<div id="js-parallax-window" class="parallax-window">
+	  <div class="parallax-static-content">
+	    <b>Parallax Window</b>
 	  </div>
-	  <div class="device">
-	    <div class="screen"></div>
-	  </div>
+	  <div id="js-parallax-background" class="parallax-background"></div>
 	</div>
 
 	<!-- Comments -->
 	<section>	
 		<div class="comment">
 		  <div class="comment-image">
-		    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png" alt="Logo image">
+		    <img src="http://www.ashwrightphotography.com/wp-content/gallery/best-headshots-nashville-1/best-headshot-uncropped-nashville-3.jpg" alt="Logo image">
 		  </div>
 		  <div class="comment-content">
-		    <h1>First Comment Title or Author</h1>
+		    <h1>Recommendation</h1>
 		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, aspernatur, quia modi minima debitis tempora ducimus quam vero impedit alias earum nemo error tenetur sed.</p>
 		    <p class="comment-detail">Date or details about this post</p>
 		  </div>
 		</div>
 		<div class="comment">
 		  <div class="comment-image">
-		    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2.png" alt="Logo image">
+		    <img src="http://lifeedited.zippykid.netdna-cdn.com/wp-content/uploads/2012/03/graham-hill-headshot.jpg" alt="Logo image">
 		  </div>
 		  <div class="comment-content">
-		    <h1>Another One</h1>
+		    <h1>Good comments from a paying customer</h1>
 		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, aspernatur, quia modi minima debitis tempora ducimus quam vero impedit alias earum nemo error tenetur sed.</p>
 		    <p class="comment-detail">Date or details about this post</p>
 		  </div>
 		</div>
 	</section>
-
-	<!-- Stats -->
-	<!-- <section>
-		<div class="stats">
-		  <ul>
-		    <li>98<span>Items</span></li>
-		    <li>298<span>Things</span></li>
-		    <li>923<span>Objects</span></li>
-		    <li>98<span>More</span></li>
-		  </ul>
-		</div>
-	</section> -->
-
-	<!--
-Add the code below to the bottom of your page, just before the closing </body> tag.
-Edit myLatlng and the other variables.
-
-Find syntax for Features that can be styled here:
-
-https://developers.google.com/maps/documentation/javascript/reference#MapTypeStyleFeatureType
-
-Or use a service such as:
-
-http://software.stadtwerk.org/google_maps_colorizr/#
-http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html
-https://developers.google.com/maps/documentation/javascript/tutorial
--->
-
-<!--
-<script src="https://maps.googleapis.com/maps/api/js"></script>
-<script>
-  var bittersMap = (function () {
-    var myLatlng = new google.maps.LatLng(59.342457, 18.057340),
-        mapCenter = new google.maps.LatLng(59.340458, 18.057340),
-        mapCanvas = document.getElementById('map_canvas'),
-        mapOptions = {
-          center: mapCenter,
-          zoom: 13,
-          scrollwheel: false,
-          draggable: true,
-          disableDefaultUI: true,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        },
-        map = new google.maps.Map(mapCanvas, mapOptions),
-        contentString =
-          '<div id="content">'+
-          '<div id="siteNotice">'+
-          '</div>'+
-          '<h1 id="firstHeading" class="firstHeading">thoughtbot</h1>'+
-          '<div id="bodyContent"'+
-          '<p>Sveavägen 98</p>'+
-          '</div>'+
-          '</div>',
-        infowindow = new google.maps.InfoWindow({
-          content: contentString,
-          maxWidth: 300
-        }),
-        marker = new google.maps.Marker({
-          position: myLatlng,
-          map: map,
-          title: 'thoughtbot (Sweden)'
-        });
-
-    return {
-      init: function () {
-        map.set('styles', [{
-          featureType: 'landscape',
-          elementType: 'geometry',
-          stylers: [
-            { hue: '#ffff00' },
-            { saturation: 30 },
-            { lightness: 10}
-          ]}
-        ]);
-
-        google.maps.event.addListener(marker, 'click', function () {
-          infowindow.open(map,marker);
-        });
-      }
-    };
-  }());
-
-  bittersMap.init();
-</script>
--->
-
-<div id="map_canvas"></div>
-
 
 	<!-- Footer -->
 	<footer class="footer-2" role="contentinfo">

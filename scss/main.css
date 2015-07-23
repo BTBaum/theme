@@ -478,6 +478,39 @@ section {
   .bullets img {
     max-width: 100%; }
 
+.why {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
+  .why::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .why:last-child {
+    margin-right: 0; }
+  .why aside {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%;
+    padding: 2.35765%;
+    font-weight: 50%; }
+    .why aside:last-child {
+      margin-right: 0; }
+  .why article {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    margin-right: 0;
+    padding: 2.35765%; }
+    .why article:last-child {
+      margin-right: 0; }
+
 .parallax-window {
   max-height: 20em;
   overflow: hidden;
@@ -501,58 +534,6 @@ section {
   position: absolute;
   top: -6.66667em;
   width: 100%; }
-
-.device-background {
-  background: url("http://www.citygop.org/wp-content/uploads/2015/02/city-wallpaper-7.jpg"), -webkit-linear-gradient(10deg, #0A120D, #162C4C), no-repeat #162C4C scroll;
-  background: url("http://www.citygop.org/wp-content/uploads/2015/02/city-wallpaper-7.jpg"), linear-gradient(10deg, #0A120D, #162C4C), no-repeat #162C4C scroll;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 20em;
-  width: 100%; }
-  .device-background .device-text {
-    color: white;
-    padding: 2em; }
-    @media screen and (min-width: 53.75em) {
-      .device-background .device-text {
-        float: left;
-        max-width: 50%;
-        padding: 4em; } }
-    .device-background .device-text h4 {
-      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-      font-size: 1.5em;
-      margin: 0 0 0.5em 0;
-      padding-bottom: 0.5em; }
-    .device-background .device-text p {
-      line-height: 1.5em;
-      margin-bottom: 1.5em; }
-  .device-background .device {
-    display: none;
-    position: relative; }
-    @media screen and (min-width: 53.75em) {
-      .device-background .device {
-        -webkit-transform: perspective(800px) translateX(0px) translateY(-100px) translateZ(50px) rotateX(0deg) rotateY(-20deg) rotateZ(0deg);
-        -moz-transform: perspective(800px) translateX(0px) translateY(-100px) translateZ(50px) rotateX(0deg) rotateY(-20deg) rotateZ(0deg);
-        -ms-transform: perspective(800px) translateX(0px) translateY(-100px) translateZ(50px) rotateX(0deg) rotateY(-20deg) rotateZ(0deg);
-        -o-transform: perspective(800px) translateX(0px) translateY(-100px) translateZ(50px) rotateX(0deg) rotateY(-20deg) rotateZ(0deg);
-        transform: perspective(800px) translateX(0px) translateY(-100px) translateZ(50px) rotateX(0deg) rotateY(-20deg) rotateZ(0deg);
-        background: #1a1a1a;
-        border-radius: 2em;
-        box-shadow: 1px 0px #343434, 4px 0px #060606, 7px 0px #010101, 10px 0px #010101, 13px 0px #010101;
-        display: block;
-        float: right;
-        margin-bottom: -12em;
-        margin-right: 5em;
-        padding: 5em 0;
-        width: 14.8em;
-        z-index: 99999; }
-        .device-background .device .screen {
-          height: 25em;
-          width: 14em;
-          background-image: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/cosmin_capitanu_screen.jpg");
-          background-size: cover;
-          border-radius: 0.2em;
-          box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.5);
-          margin: auto; } }
 
 section {
   padding: 10em; }
@@ -587,37 +568,12 @@ section {
       margin: 0 0 0.5em 0; }
     .comment .comment-content p {
       line-height: 1.5em;
-      margin-bottom: 0.5em; }
+      margin-bottom: 0.5em;
+      color: #f2f2f2; }
     .comment .comment-content p.comment-detail {
       color: #6495ed;
       font-size: 0.9em;
       font-style: italic; }
-
-section {
-  position: center; }
-
-.stats {
-  padding: 0.75em; }
-  .stats ul {
-    padding: 0; }
-  .stats li {
-    border-right: 1px solid rgba(51, 51, 51, 0.2);
-    color: #6f99d5;
-    display: inline;
-    float: left;
-    font-size: 1.2em;
-    font-weight: 800;
-    line-height: 1.1em;
-    padding: 0 0.7em; }
-    .stats li:first-child {
-      padding-left: 0; }
-    .stats li:last-child {
-      border-right: 0; }
-  .stats span {
-    color: #333;
-    display: block;
-    font-size: 0.7em;
-    font-weight: normal; }
 
 .footer-2 {
   background: #000;
